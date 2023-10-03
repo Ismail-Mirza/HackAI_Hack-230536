@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "helloagent"
+version = "0.1.0"
+description = "getting started with uagent framewowrk"
+authors = ["'Mohammad <'ismail.me.buet@gmail.com'>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+uagents = "^0.6.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
